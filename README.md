@@ -40,24 +40,8 @@ Flim-analysis-python/
 │
 ├── notebook.ipynb          # Main analysis notebook
 ├── README.md               # Project documentation
-└── data/
-    └── bollywood.csv       # Raw dataset
+└── flim.csv                # Raw dataset
 ```
-
----
-
-## 📂 Dataset
-
-| Column | Type | Description |
-|--------|------|-------------|
-| `Movie` | str | Movie title |
-| `Budget` | float | Production budget |
-| `India Gross` | float | Total box office collection in India |
-| `India Net` | float | Net collection in India |
-| `Overseas` | float | Overseas box office collection |
-| `Verdict` | str | Success or failure status |
-
-> ⚠️ The dataset may include duplicates and outliers which are handled during analysis.
 
 ---
 
